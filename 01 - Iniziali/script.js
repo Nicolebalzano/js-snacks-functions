@@ -2,7 +2,6 @@
  con le iniziali di ogni parola dell'array fornito */
 
 const names = ["Anna", "Luca", "Marco", "Adele", "Giovanni", "Alessandra"];
-firstLetters(names);
 
 // Dichiara la funzione qui.
 function firstLetters(names){
@@ -18,7 +17,7 @@ firstLetter.push(curLetter.toUpperCase());
 }
 
 // Invoca la funzione qui e stampa il risultato in console
-
+firstLetters(names);
 
 
 //Risultato atteso: ["A", "L", "M", "A", "G", "A"]
